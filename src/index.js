@@ -8,6 +8,7 @@ import Login from './Login';
 import JoinMembership from './JoinMembership'
 import reportWebVitals from './reportWebVitals';
 import Category from './category';
+import Order from './order.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,9 @@ root.render(
     {/* <Mainbanner></Mainbanner>  */}
     {/* <Login></Login> */}
     {/* <JoinMembership></JoinMembership> */}
-    <Category/>
+    {/* <Category/> */}
+    <Order/>
+
   </React.StrictMode>
 );
 reportWebVitals();

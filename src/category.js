@@ -16,7 +16,8 @@ function Shop_list(){
     const num=0;
     const MC = new Menu();
     const shop = [];
-    
+
+    console.log(MC.list[num].shop[0]);
     for(let i=0; i<MC.list[num].shop.length; i++){
         let t = MC.list[num].shop[i];
         console.log(t);
