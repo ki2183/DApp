@@ -25,9 +25,6 @@
 #post-join{
         width: 400px; 
         display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: start;
 }
 #personId-join>input[type=text]{
         width: 140px;

@@ -5,7 +5,7 @@ function Menulist(){
     const menu=[];
     for(let i=0; i<list.length; i++){
         menu.push(
-            <a href={`menu-${i}`} key={`menu_${i}`}><div className='menu-div'><p>{list[i]}</p></div></a>
+            <a href={`menu-${i}`} key={`menu_${i}`}><div className='menu-div'><p>{list[i].menu}</p></div></a>
         );
     }
     return  <div className='banner'>

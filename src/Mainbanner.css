@@ -20,6 +20,9 @@
     width:100%;
     border: 1px solid black;
     transition: 0.2s ;
+    background-image: url('./menuPhoto/buger.png');
+    background-repeat : no-repeat;
+    background-position: right bottom;
 
 }
 

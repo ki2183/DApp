@@ -7,15 +7,17 @@ import Mainbanner from './Mainbanner';
 import Login from './Login';
 import JoinMembership from './JoinMembership'
 import reportWebVitals from './reportWebVitals';
+import Category from './category';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Nav/>
-    {/* <Serchbar></Serchbar>
-    <Mainbanner></Mainbanner> */}
+    {/* <Serchbar></Serchbar> */}
+    {/* <Mainbanner></Mainbanner>  */}
     {/* <Login></Login> */}
-    <JoinMembership></JoinMembership>
+    {/* <JoinMembership></JoinMembership> */}
+    <Category/>
   </React.StrictMode>
 );
 reportWebVitals();
