@@ -46,17 +46,20 @@ function Join() {
                     <input type='text' placeholder='전화번호'></input>
                 </div>
                 <div id='post-join'>
-                    <p>주소</p>
-                    <select id="pp" class="" aria-label="도">
-					    <option value="">도</option>
-                        {city}
-                    </select>
-                    <input type='text' placeholder='주소'></input>
-                    <input type="text" placeholder='우편번호'></input>
+                    <p>주소</p> 
+                    <div>
+                        <select id="pp" class="" aria-label="도">
+                            <option value="">도</option>
+                            {city}
+                        </select>
+                        <input type='text' placeholder='주소'></input>
+                        <input type="text" placeholder='우편번호'></input>
+                    </div>
                 </div>
                 <input type="submit"value='가입하기'></input>
             </form>
       </div>
+      <div id='last'></div>
     </div>
   );
 }

@@ -2,8 +2,8 @@ import './Nav.css';
 
 function Global_nav(){
   return <nav className='global_nav'>
-    <a href='#'><span className="material-symbols-outlined">home</span></a>
-    <a href='#'><span className="material-symbols-outlined">login</span></a>
+    <a href='/'><span className="material-symbols-outlined">home</span></a>
+    <a href='/login/'><span className="material-symbols-outlined">login</span></a>
   </nav>
 }
 

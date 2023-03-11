@@ -32,7 +32,7 @@ function Login(){
           <div><span className="material-symbols-outlined">key</span><input type='password' id='loginPassword' onFocus={()=>{setdelPwd(!delPwd);}}>
             </input>{pwdbutton}</div>
           <input type='submit' value='로그인'></input>
-        <div id='loginEtc'><a href='#'>회원가입</a>
+        <div id='loginEtc'><a href='/joinmember/'>회원가입</a>
           <a href='#'>비밀번호 찾기</a>
           </div>
           <div id='trash'></div>
